@@ -1,0 +1,195 @@
+html{
+    overflow-x: hidden;
+}
+body{
+    line-height: 1.6;
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #6F88A4;
+    font-weight: 400;
+}
+h1,.h1,h2,.h2,h3,.h3,h4,.h4,h5,.h5,h6,.h6{
+    font-family: sans-serif;
+    font-weight: 700;
+    color: #181616;
+}
+#navbarmain{
+    padding: 20px 0;
+}
+#navbarmain,.nav-link{
+    font-weight: 600;
+    padding: 10px 15px;
+    color: rgb(238, 6, 6);
+    font-family: sans-serif;
+    text-transform: capitalize;
+    font-size: 16px;
+    transition: all .25s ease;
+}
+.dropdown-toggle:after {
+    display: none;
+}
+.navbar-brand{
+    margin-top: 10px;
+}
+.dropdown .dropdown-menu{
+    position:absolute;
+    display: block;
+    background: #fff;
+    min-width: 240px;
+    top:130%;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    padding: 0%;
+    visibility: hidden;
+    transition:all 0.3s ease-out 0s;
+    border: 0;
+    border-top: 5px solid red;  
+}
+.dropdown:hover .dropdown-menu{
+    opacity: 1;
+    visibility: visible;
+    top: 115%;
+}
+.dropdown .dropdown-item{
+    padding: 13px 20px;
+    border-bottom: 2px solid #eeee;
+    font-weight: bold;
+    color: #555;
+}
+.dropdown .dropdown-item:hover{
+    background: grey;
+    color: red;
+    font-weight: bolder;
+}
+.banner{
+    position: relative;
+    overflow: hidden;
+    background-image: url(../img/images4.jpg);
+    background-size: cover;
+    min-height: 700px;    
+}
+.banner .block{
+    padding: 80% 0px 160px;
+    color: #FF0077;
+}
+.banner .block h1{
+    font-size: 60px;
+    line-height: 1.2;
+    letter-spacing: -1.2;
+    text-transform: capitalize;
+    color: #FF0077;
+}
+@media (max-width: 480px){
+    .banner .block h1{
+        font-size: 38px;
+        line-height: 50px;
+    }
+    .banner{
+        min-height: 450px;
+        background: #fff !important;
+    }
+}
+@media (max-width:400px){
+    .banner .block h1{
+        font-size: 28px;
+        line-height: 40px;
+    }
+    .banner{
+        min-height: 280px;
+        background: #fff !important;
+    }
+}
+
+.py-7{
+    padding: 7rem 0px;
+}
+.btn{
+    display: inline-block;
+    font-size: 14px;
+    font-size: 0.8125rem;
+    font-weight: bolder;
+    padding: .75rem 2rem;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    border-radius: 5px;
+    border: 2px solid transparent;
+    transition: all .35s ease;
+}
+.btn .btn-icon i{
+    border-left: 2px solid rgba(255, 255, 255, 0.05);
+    padding:15px;
+    color: #fff;
+}
+.btn:focus{
+    outline: 0px;
+    box-shadow: none;
+}
+ .btn-main-2{
+    background: #FF0077;
+    color: #fff;
+    border-color:#FF0077;
+}
+.btn-main-2:hover{
+    background: #ffae00;
+    color: #fff;
+    border-color:#ffae00;
+}
+.btn-main{
+    background-color: #ff0077;
+    color:#fff;
+    border-color: #FF0077;
+}
+.btn-main:hover{
+    background-color: #ff6000;
+    color:#fff;
+    border-color: #FF6000;
+}
+a{
+    color: #222;
+    text-decoration: none;
+    transition: all 35s ease;
+}
+a:focus a:hover{
+    color: #312454;
+    text-decoration: none;
+}
+.features{
+    margin-top: -70px;
+}
+.feature-item{
+    flex-basis: 33.33%;
+    float: left;
+    margin: 0px 10px;
+    padding: 40px 30px;
+    background-color: #020635;
+    box-shadow: -1px -1px 2px #cedced;
+}
+.feature-item h4{
+    color: #FF0077;
+}
+.feature-item p{
+    font-size: 14px;
+}
+.footer-container{
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+footer{
+    background-color: black;
+}
+.socialisation{
+    display: flex;
+    justify-content: center;
+}
+.socialisation a{
+    text-decoration: none;
+    margin: 10px;
+    background-color: white;
+    border-radius: 50%;
+    padding: 10px;
+}
+.socialisation a i{
+    font-size: 2em;
+    opacity: 0.9;
+}
